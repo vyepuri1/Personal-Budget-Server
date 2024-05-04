@@ -12,7 +12,7 @@ const Budget = require("./budget");
 const { Authenticate } = require("./auth");
 
 mongoose.connect(
-  "mongodb+srv://kshitij:Kshitij%40123@cluster0.xcbupo1.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+  "mongodb+srv://DFqqXNSw5ir3cTSa:DFqqXNSw5ir3cTSa@cluster0.4f2tddf.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 );
 const db = mongoose.connection;
 db.on("error", (error) => {
